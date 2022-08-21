@@ -3,6 +3,7 @@
 const drivers = ['Antonia', 'Nuru', 'Amari', 'Mo'];
 
 const returnFirstTwoDrivers =  ([...arr]) => {
+    // You can also return the function  through 'return  arr.splice instead of arr.slice'
     return arr.slice(0, 2);
 }
 
